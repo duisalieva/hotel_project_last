@@ -375,9 +375,9 @@ def click_reservation_button(): #reservation button
                     date2_day=tk.Entry(reservation)
                     date2_day.place(x=110, y=120, width=30, height=30)
                     #labels for dates
-                    date1_lab=tk.Label(reservation, text="Choose the arrival date (yy/mm/dd):", bg="white")
+                    date1_lab=tk.Label(reservation, text="Choose the arrival date (yyyy/mm/dd):", bg="white")
                     date1_lab.place(x=10, y=32)
-                    date2_lab=tk.Label(reservation, text="Choose the arrival date (yy/mm/dd):", bg="white")
+                    date2_lab=tk.Label(reservation, text="Choose the arrival date (yyyy/mm/dd):", bg="white")
                     date2_lab.place(x=10, y=92)
                     #label for room type
                     room_type=tk.Label(reservation, text="room type:", bg="white")
@@ -740,9 +740,9 @@ def click_reservation_button(): #reservation button
                         date2_day=tk.Entry(reservation)
                         date2_day.place(x=110, y=120, width=30, height=30)
                         #labels for dates
-                        date1_lab=tk.Label(reservation, text="Choose the arrival date (yy/mm/dd):", bg="white")
+                        date1_lab=tk.Label(reservation, text="Choose the arrival date (yyyy/mm/dd):", bg="white")
                         date1_lab.place(x=10, y=32)
-                        date2_lab=tk.Label(reservation, text="Choose the arrival date (yy/mm/dd):", bg="white")
+                        date2_lab=tk.Label(reservation, text="Choose the arrival date (yyyy/mm/dd):", bg="white")
                         date2_lab.place(x=10, y=92)
                         #label for room type
                         room_type=tk.Label(reservation, text="room type:", bg="white")
